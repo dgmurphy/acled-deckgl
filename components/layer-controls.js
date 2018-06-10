@@ -141,7 +141,7 @@ class LayerControls extends Component {
           <a className="social-icon" href="https://douglasgmurphy.com/acled-deckgl" target="_blank"> 
             <img border="0" alt="Wordpress" src="./images/WordPress.svg" width="22" height="22"/>
           </a>
-         <a className="social-icon" href="https://github.com/dgmurphy/acled-viz" target="_blank">
+         <a className="social-icon" href="https://github.com/dgmurphy/acled-deckgl" target="_blank">
             <img border="0" alt="GitHub" src="./images/GitHub.svg" width="22" height="22"/>
           </a> 
         </div>
