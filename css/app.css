@@ -1,0 +1,170 @@
+
+#control-panel {
+	position: fixed;
+	z-index: 9;
+	top: 0;
+  	bottom: 0;
+	right: 0;
+  	overflow-x: hidden;
+  	overflow-y: auto;
+  	height: 100%;
+  	width: 330px;
+  	background: rgba(245, 248, 250, 0.85);
+}
+
+.hrule {
+	width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+.layer-controls {
+	padding: 8px 0;
+}
+
+.app-title {
+
+	text-align: center;
+    padding: 5px 0px;
+}
+
+.slider-control {
+	
+    height: 220px;
+	margin: 0 auto 0 auto;
+	width:275px;
+	padding-top: 10px;
+}
+
+.time-select {
+	width: 295px;
+	margin: 28px 0 4px 20px;
+}
+
+.time-slider {
+	
+	margin: 0 36px 0 20px;
+	padding-bottom: 20px;
+	display: inline-flex;
+}
+
+.time-slider .pt-slider {
+	min-width: 190px;
+}
+
+.sliders-row {
+	margin-left:20px;
+}
+
+.cem-slider {
+	float:left;
+	margin-bottom: 6px; 
+	margin-left: 12px;
+    margin-top: 3px
+}
+
+.opacity-high {
+
+	background-repeat: no-repeat; 
+	background-image: url('../images/opacity-high.png');
+	height:32px;
+	margin-bottom:6px
+}
+
+.opacity-low {
+
+	background-repeat: no-repeat; 
+	background-image: url('../images/opacity-low.png');
+	height:32px;
+	margin-top:6px
+}
+
+.coverage-high {
+
+	background-repeat: no-repeat; 
+	background-image: url('../images/coverage-high.png');
+	height:32px;
+	margin-bottom:6px
+}
+
+.coverage-low {
+
+	background-repeat: no-repeat; 
+	background-image: url('../images/coverage-low.png');
+	height:32px;
+	margin-top:6px
+}
+
+
+.elevation-high {
+
+	background-repeat: no-repeat; 
+	background-image: url('../images/elevation-high.png');
+	height:32px;
+	margin-bottom:6px
+}
+
+.elevation-low {
+
+	background-repeat: no-repeat; 
+	background-image: url('../images/elevation-low.png');
+	height:32px;
+	margin-top:6px
+}
+
+
+.radius-high {
+
+	background-repeat: no-repeat; 
+	background-image: url('../images/radius-high.png');
+	height:32px;
+	margin-bottom:6px
+}
+
+.radius-low {
+
+	background-repeat: no-repeat; 
+	background-image: url('../images/radius-low.png');
+	height:32px;
+	margin-top:6px
+}
+
+
+
+.bp-slider {
+  margin-left:7px;
+  
+}
+
+.pt-slider.pt-slider-unlabeled.pt-vertical {
+    width: 40px;
+    min-width: 40px;
+	height: 120px;
+}
+
+#deckgl-overlay {
+	cursor: crosshair;
+}
+
+.info-box {
+	margin-left:16px;
+	margin-top:12px;
+	height:286px;
+}
+
+.values {
+	color: darkcyan;
+}
+
+.hints {
+	color: grey;
+}
+
+.social {
+    margin: 20px auto 0 auto;
+    width: 60px;
+
+}
+
+.social-icon {
+	margin: 6px 4px 6px 4px;
+}

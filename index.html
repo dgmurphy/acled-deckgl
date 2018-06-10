@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset='UTF-8' />
+  <title>deck.gl example with ACLED data</title>
+  <link href="./css/app.css" rel="stylesheet">
+  <link href="./css/loading.css" rel="stylesheet">
+  <link href="./css/blueprint.css" rel="stylesheet" type="text/css" />
+  <link href="./css/blueprint-icons.css" rel="stylesheet" type="text/css" />
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet' />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .loading-graphics {
+      position: absolute;
+      top: 30%;
+      left: 30%;
+    }
+
+    .loading-message {
+      font-family: sans-serif;
+      position: relative;
+      left: 135px;
+      top: -75px;
+      color: grey;
+      font-size: 1.2em;
+      width: 150px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div class="loading-graphics">
+    <img src="./images/hexloader.gif">
+    <!-- Loading gif by Barış Ertufan https://dribbble.com/shots/1137881-Loading-Animation-2 -->
+    <div class="loading-message">
+      ACLED in DeckGL
+    </div>
+  </div>
+
+
+  <script src='bundle.js'></script>
+</body>
+
+</html>
