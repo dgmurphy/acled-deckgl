@@ -125,6 +125,7 @@ class LayerControls extends Component {
             />
           )
         }
+        <p className='hints' style={{margin: '0 0 20px 86px'}}> Data set ends May 19th, 2018</p>
 
         <hr className="hrule" />
         <InfoBox
