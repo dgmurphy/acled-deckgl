@@ -33,11 +33,13 @@ npm start
 ```
 Open http://localhost:3000 in your browser.
 
+## Build
+npm run build --output-file bundle.js
+Deploy these: index.html, bundle.js, bundle.js.map, images/ data/ css/
+
 
 ## Usage
 Data for this visualization was downloaded from ACLED and converted to the simple format used by deck.gl. The `data` folder in this project contains one input file per year.
 
 
-### More
-Notes on the development and lessons learned at https://douglasgmurphy.com/acled-deckgl
 
